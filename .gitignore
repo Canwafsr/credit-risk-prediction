@@ -1,0 +1,19 @@
+# Data
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Models (too large for GitHub without LFS)
+*.pkl
+*.joblib
